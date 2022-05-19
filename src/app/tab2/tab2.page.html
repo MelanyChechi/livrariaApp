@@ -1,17 +1,65 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Kit de Livros
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <img
+            src="https://media.karousell.com/media/photos/products/2018/06/17/harry_potter_box_set_complete_collection_books_17_1529206319_529b2e14_progressive.jpg">
+          <ion-card-contend>
+            <p><strong>Harry Potter</strong></p>
+            <p class="ion-text-right">
+              <ion-badge color="success">49,90</ion-badge>
+            </p>
+          </ion-card-contend>
+        </ion-card>
+      </ion-col>
+    
+          <ion-col size="6">
+            <ion-card>
+              <img src="https://cdn.shopify.com/s/files/1/0338/4872/1545/products/MAINIMAGEIMG_2909_1995x1995.jpg?v=1606974917">
+              <ion-card-contend>
+                <p><strong>Percy Jackson</strong></p>
+                <p class="ion-text-right">
+                  <ion-badge color="success">47,90</ion-badge>
+                </p>
+              </ion-card-contend>
+            </ion-card>
+            </ion-col>
+          </ion-row>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+            <ion-row>
+              <ion-col size="6">
+                <ion-card>
+                  <img src="https://i5.walmartimages.com/asr/b49805e5-fa1d-4b21-af2b-50f3c80fe92e.46555b95a3a0ff7c16c30f1b60c1d942.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff">
+                  <ion-card-contend>
+                    <p><strong>Sherlock Holmes</strong></p>
+                    <p class="ion-text-right">
+                      <ion-badge color="success">35,00</ion-badge>
+                    </p>
+                  </ion-card-contend>
+                </ion-card>
+              </ion-col>
+                
+                  <ion-col size="6">
+                    <ion-card>
+                      <img src="https://th.bing.com/th/id/OIP.SNkT6tjqSL1TTUgrZnN4XwHaHt?pid=ImgDet&rs=1">
+                      <ion-card-contend>
+                        <p><strong>The Chronicles of Narnia</strong></p>
+                        <p class="ion-text-right">
+                          <ion-badge color="success">20,00</ion-badge>
+                        </p>
+                      </ion-card-contend>
+                    </ion-card>
+                  </ion-col>
+                  </ion-row>
+
+  </ion-grid>
 </ion-content>
